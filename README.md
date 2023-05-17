@@ -57,7 +57,7 @@ You can contribute to Link Saver by adding a translation for your language. To d
 
 1. Open the `settings.json` file.
 2. Locate the `translations` object.
-3. Add an entry for your language like french.
+3. Add an entry for your language like fr for french.
 4. Inside the entry, provide translations for each text key in the language you desire.
 5. Save the `settings.json` file.
 
