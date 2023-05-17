@@ -15,7 +15,8 @@
 
 ## 📖 Description
 
-Link Saver is a user-friendly web application that allows you to store and organize your favorite links in one place. It provides a easy way to save links with custom names, making it easy to remember and access them later.
+Link Saver is a user-friendly web application that allows you to store and organize your favorite links in one place. It provides a easy way to save links with custom names, making it easy to remember and access them later.if you are lost in the bookmarks, use this and give it a star.
+
 
 ## ⚙️ Changing Settings
 
