@@ -9,6 +9,10 @@
   <em>A simple and convenient web application to save and manage your favorite links.</em>
 </p>
 
+<a href="https://github.com/khzg/LinkSaver/archive/refs/tags/1.0.zip" download>
+  <button>↓ DOWNLOAD</button>
+</a>
+
 ## 📖 Description
 
 Link Saver is a user-friendly web application that allows you to store and organize your favorite links in one place. It provides a easy way to save links with custom names, making it easy to remember and access them later.
@@ -22,7 +26,7 @@ To customize the behavior and appearance of Link Saver, you can modify the setti
 - `translations`: Customize the text used in the interface for different languages. Add translations for your language by including an entry with the language code as the key and an object with the translated text as the value.
 - `styles`: Add custom styles to modify the visual appearance of the application.
 
-To make changes, open the `settings.json` file and update the values according to the provided instructions.
+To make changes, open the `settings.json` file and update the values according to the provided instructions, then changing the settings, wipe the html page cache with Ctrl + Shift + R.
 
 ## 🚀 Usage
 
@@ -32,7 +36,7 @@ To make changes, open the `settings.json` file and update the values according t
 4. To view your saved links, navigate to the "Saved Links" section.
 5. Click on a link's name to open it in a new tab.
 6. To remove a saved link, click the "❌" button next to it.
-7.Simply search for links the "ctrl + f" shortcut in your browser to quickly locate it.
+7. Simply search for links the "ctrl + f" shortcut in your browser to quickly locate it.
 
 Enjoy effortless organization and quick access to your saved links with Link Saver!
 
@@ -53,7 +57,7 @@ You can contribute to Link Saver by adding a translation for your language. To d
 
 1. Open the `settings.json` file.
 2. Locate the `translations` object.
-3. Add an entry for your language like fr.
+3. Add an entry for your language like french.
 4. Inside the entry, provide translations for each text key in the language you desire.
 5. Save the `settings.json` file.
 
