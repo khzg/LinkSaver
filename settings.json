@@ -1,0 +1,31 @@
+{
+  "language": "en",
+  "style": "ltr",
+  "translations": {
+    "en": {
+      "link": "link",
+      "name": "name",
+      "savedLinksHeading": "Saved Links",
+      "saveButton": "Save",
+      "exportButton": "Export",
+      "importLabel": "Import"
+    },
+    "de": {
+      "link": "Link",
+      "name": "Name",
+      "savedLinksHeading": "Gespeicherte Links",
+      "saveButton": "Speichern",
+      "exportButton": "Exportieren",
+      "importLabel": "Importieren"
+    },    
+    "fa": {
+      "link": "لینک",
+      "name": "نام",
+      "savedLinksHeading": "لینک های ذخیره شده",
+      "saveButton": "ذخیره",
+      "exportButton": "اکسپورت",
+      "importLabel": "ایمپورت"
+    }
+  }
+}
+

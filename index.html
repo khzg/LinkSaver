@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Link Saver</title>
+    <link rel="icon" type="image/png" href="bookmark.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 onclick="refreshPage()" class="brand" id="brandHeading">Link Saver</h1>
+
+    <div>
+      <label for="linkInput" id="linkLabel">link</label>
+      <input type="text" id="linkInput" />
+    </div>
+
+    <div>
+      <label for="nameInput" id="nameLabel">name:</label>
+      <input type="text" id="nameInput" />
+    </div>
+
+    <div>
+      <button onclick="saveLink()" id="saveButton">Save</button>
+      <button onclick="exportJson()" id="exportButton">Export</button>
+      <label for="importJson" id="importLabel">Import</label>
+      <input
+        type="file"
+        id="importJson"
+        accept=".json"
+        onchange="importJson(event)"
+      />
+    </div>
+
+    <div id="savedLinksSection">
+      <h2 id="linksHeading">Saved Links</h2>
+      <ul id="linksList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
