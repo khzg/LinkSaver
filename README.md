@@ -9,7 +9,7 @@
   <em>A simple and convenient web application to save and manage your favorite links.</em>
 </p>
 
-<a href="https://github.com/khzg/LinkSaver/archive/refs/tags/1.0.zip" download>
+<a href="https://github.com/khzg/LinkSaver/archive/refs/tags/2.0.zip" download>
   <button>↓ DOWNLOAD</button>
 </a>
 
