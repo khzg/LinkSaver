@@ -37,7 +37,6 @@ To make changes, open the `settings.json` file and update the values according t
 4. To view your saved links, navigate to the "Saved Links" section.
 5. Click on a link's name to open it in a new tab.
 6. To remove a saved link, click the "❌" button next to it.
-7. Simply search for links the "ctrl + f" shortcut in your browser to quickly locate it.
 
 Enjoy effortless organization and quick access to your saved links with Link Saver!
 

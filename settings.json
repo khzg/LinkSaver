@@ -3,12 +3,13 @@
   "style": "ltr",
   "translations": {
     "en": {
-      "link": "link",
-      "name": "name",
+      "link": "Link",
+      "name": "Name",
       "savedLinksHeading": "Saved Links",
       "saveButton": "Save",
       "exportButton": "Export",
-      "importLabel": "Import"
+      "importLabel": "Import",
+      "searchPlaceholder": "Search..."
     },
     "de": {
       "link": "Link",
@@ -16,7 +17,8 @@
       "savedLinksHeading": "Gespeicherte Links",
       "saveButton": "Speichern",
       "exportButton": "Exportieren",
-      "importLabel": "Importieren"
+      "importLabel": "Importieren",
+      "searchPlaceholder": "Suchen..."
     },    
     "fa": {
       "link": "لینک",
@@ -24,7 +26,8 @@
       "savedLinksHeading": "لینک های ذخیره شده",
       "saveButton": "ذخیره",
       "exportButton": "اکسپورت",
-      "importLabel": "ایمپورت"
+      "importLabel": "ایمپورت",
+      "searchPlaceholder": "...جستجو"
     }
   }
 }

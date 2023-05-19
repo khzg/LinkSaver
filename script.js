@@ -107,6 +107,7 @@ function applySettings() {
     languageTranslations.importLabel;
   document.getElementById("linkLabel").textContent = languageTranslations.link;
   document.getElementById("nameLabel").textContent = languageTranslations.name;
+  document.getElementById("searchInput").placeholder = languageTranslations.searchPlaceholder;
 
   // Apply the style (LTR or RTL)
   document.body.dir = style === "rtl" ? "rtl" : "ltr";
@@ -123,6 +124,7 @@ function applySettings() {
         body {
         direction: ltr;
         }
+        
         #linksList li button {
         right: 0;
         margin-right: 10px;
@@ -138,10 +140,15 @@ function applySettings() {
         body {
         direction: rtl;
         }
+
         #linksList li button {
         left: 0;
         margin-left: 10px;
         right: unset;
+        }
+
+        #searchContainer {
+          justify-items: left;
         }
   `;
     const styleElement = document.createElement("style");
@@ -151,5 +158,24 @@ function applySettings() {
 
   displayLinks();
 }
+
+function searchLinks() {
+  const searchInput = document.getElementById("searchInput").value.toLowerCase();
+  const savedLinks = JSON.parse(localStorage.getItem("savedLinks")) || [];
+  const filteredLinks = savedLinks.filter((link) => {
+    const name = link.name.toLowerCase();
+    const url = link.link.toLowerCase();
+    return name.includes(searchInput) || url.includes(searchInput);
+  });
+
+  const linksList = document.getElementById("linksList");
+  linksList.innerHTML = filteredLinks
+    .map(
+      ({ name, link }, index) =>
+        `<li><a href="${link}" target="_blank">${name}</a><button id="delete" onclick="deleteLink(${index})">❌</button></li>`
+    )
+    .join("");
+}
+
 
 loadSettings();

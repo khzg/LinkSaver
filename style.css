@@ -29,7 +29,18 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
+#searchContainer {
+	display: grid;
+	justify-items: right;
+  margin-top: 13px;
+}
+#searchInput {
+	width: 45%;
+  margin-left: 6px;
+}
+#searchLabel {
+	margin-left: 5px;
+}
 button {
   padding: 10px 20px;
   font-size: 16px;
