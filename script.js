@@ -15,7 +15,6 @@ function displayLinks() {
   const savedLinks = JSON.parse(localStorage.getItem("savedLinks")) || [];
   const linksList = document.getElementById("linksList");
 
-  // Sort the saved links by date
   savedLinks.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   linksList.innerHTML = savedLinks
@@ -42,10 +41,14 @@ function exportJson() {
   const blob = new Blob([jsonData], {type: "application/json"});
 
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
+  const url = window.URL.createObjectURL(blob); 
+  a.href = url;
   a.download = "links.json";
   a.click();
+
+  window.URL.revokeObjectURL(url); 
 }
+
 
 function importJson(event) {
   const file = event.target.files[0];
