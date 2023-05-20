@@ -95,3 +95,13 @@ button:hover {
 a{
 text-decoration: none;
 }
+
+@media screen and (max-width: 992px) {
+  #searchContainer {
+    justify-items: unset !important;
+  }
+  #searchInput {
+    width: 98%;
+    margin-left: unset;
+  }
+}
