@@ -40,22 +40,14 @@ function exportJson() {
   const jsonData = JSON.stringify(savedLinks, null, 2);
   const blob = new Blob([jsonData], {type: "application/json"});
 
-  if (navigator.msSaveBlob) {
-    // For Internet Explorer and Microsoft Edge
-    navigator.msSaveBlob(blob, "links.json");
-  } else {
-    // For other browsers
-    const a = document.createElement("a");
-    const url = window.URL.createObjectURL(blob);
-    a.href = url;
-    a.download = "links.json";
-    a.click();
+  const a = document.createElement("a");
+  const url = window.URL.createObjectURL(blob); 
+  a.href = url;
+  a.download = "links.json";
+  a.click();
 
-    // Cleanup
-    window.URL.revokeObjectURL(url);
-  }
+  window.URL.revokeObjectURL(url); 
 }
-
 
 
 function importJson(event) {
