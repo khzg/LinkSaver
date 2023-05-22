@@ -99,7 +99,13 @@ button:hover {
 a{
 text-decoration: none;
 }
-
+.githubLink {
+	text-align: center;
+	margin-top: 33px;
+}
+.githubLink a {
+	color: #a4a4a4;
+}
 @media screen and (max-width: 992px) {
   #searchContainer {
     justify-items: unset !important;
