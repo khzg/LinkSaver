@@ -103,9 +103,7 @@ Link Saver is licensed under the MIT License.
 
 ## 💰 Donate
 
-If you find Link Saver useful and would like to support its development and maintenance, you can make a donation by purchasing one of my NFTs. By buying an NFT for $5 from my OpenSea collection, you contribute to the continuous improvement of Link Saver and future feature enhancements.
-
-You can find my NFT collection at [https://tinyurl.com/opensea2023](https://tinyurl.com/opensea2023). 
+ USDT(BEP20): 0x2A4eE50b2bf51c38Fe66120695976be493FcE8fF
 
 Thank you for your generosity and support!
 
